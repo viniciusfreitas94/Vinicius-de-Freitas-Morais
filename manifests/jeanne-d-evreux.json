@@ -1,0 +1,166 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.metmuseum.org/art/collection/search/470309/manifest",
+  "type": "Manifest",
+  "label": {
+    "pt": ["Livro de Horas de Jeanne d'Evreux (fólio 8v-9r)"],
+    "en": ["Book of Hours of Jeanne d'Evreux (fols. 8v-9r)"]
+  },
+  "summary": {
+    "pt": [
+      "Manifesto IIIF para o fólio duplo do Livro de Horas (uso de Paris) encomendado pela rainha Jeanne d'Evreux e iluminado por Jean Pucelle, mostrando a Traição de Cristo e a Anunciação."
+    ],
+    "en": [
+      "IIIF manifest for the opening from the Book of Hours (Use of Paris) commissioned by Queen Jeanne d'Evreux and illuminated by Jean Pucelle, depicting the Betrayal of Christ and the Annunciation."
+    ]
+  },
+  "rights": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "metadata": [
+    {
+      "label": {"pt": ["Título"], "en": ["Title"]},
+      "value": {
+        "pt": ["Livro de Horas (uso de Paris) de Jeanne d'Evreux, fólio 8v-9r"],
+        "en": ["Book of Hours (Use of Paris) of Jeanne d'Evreux, folios 8v-9r"]
+      }
+    },
+    {
+      "label": {"pt": ["Artista"], "en": ["Artist"]},
+      "value": {
+        "pt": ["Jean Pucelle (francês, ativo ca. 1319–1334)"],
+        "en": ["Jean Pucelle (French, active ca. 1319–1334)"]
+      }
+    },
+    {
+      "label": {"pt": ["Data"], "en": ["Date"]},
+      "value": {
+        "pt": ["ca. 1324–1328"],
+        "en": ["ca. 1324–1328"]
+      }
+    },
+    {
+      "label": {"pt": ["Materiais"], "en": ["Medium"]},
+      "value": {
+        "pt": ["Têmpera, grisalha e tinta sobre pergaminho"],
+        "en": ["Tempera, grisaille, and ink on parchment"]
+      }
+    },
+    {
+      "label": {"pt": ["Dimensões"], "en": ["Dimensions"]},
+      "value": {
+        "pt": ["Folha: 9,2 × 6,2 cm (3 5/8 × 2 7/16 pol.)"],
+        "en": ["Leaf: 9.2 × 6.2 cm (3 5/8 × 2 7/16 in.)"]
+      }
+    },
+    {
+      "label": {"pt": ["Proveniência"], "en": ["Credit line"]},
+      "value": {
+        "pt": ["The Cloisters Collection, 1954 (54.1.2)"],
+        "en": ["The Cloisters Collection, 1954 (54.1.2)"]
+      }
+    },
+    {
+      "label": {"pt": ["Departamento"], "en": ["Department"]},
+      "value": {
+        "pt": ["The Met Cloisters"],
+        "en": ["The Met Cloisters"]
+      }
+    },
+    {
+      "label": {"pt": ["Referência"]},
+      "value": {
+        "pt": ["Objeto nº 470309"]
+      }
+    }
+  ],
+  "requiredStatement": {
+    "label": {"pt": ["Créditos"]},
+    "value": {
+      "pt": [
+        "The Metropolitan Museum of Art, The Cloisters Collection, 1954 (54.1.2)."
+      ]
+    }
+  },
+  "provider": [
+    {
+      "id": "https://www.metmuseum.org",
+      "type": "Agent",
+      "label": {
+        "pt": ["The Metropolitan Museum of Art"],
+        "en": ["The Metropolitan Museum of Art"]
+      },
+      "homepage": [
+        {
+          "id": "https://www.metmuseum.org/",
+          "type": "Text",
+          "label": {
+            "en": ["Institution homepage"]
+          },
+          "format": "text/html"
+        }
+      ]
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://images.metmuseum.org/CRDImages/cl/web-large/DP708770.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "width": 800,
+      "height": 600
+    }
+  ],
+  "homepage": [
+    {
+      "id": "https://www.metmuseum.org/art/collection/search/470309",
+      "type": "Text",
+      "label": {
+        "pt": ["Página do objeto no site do The Met"],
+        "en": ["Object page on The Met website"]
+      },
+      "format": "text/html"
+    }
+  ],
+  "seeAlso": [
+    {
+      "id": "https://collectionapi.metmuseum.org/public/collection/v1/objects/470309",
+      "type": "Dataset",
+      "format": "application/json",
+      "label": {
+        "en": ["The Met Collection API record"]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "https://www.metmuseum.org/art/collection/search/470309/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "pt": ["Fólio duplo com cenas da Paixão e da Anunciação"],
+        "en": ["Opening with the Betrayal of Christ and the Annunciation"]
+      },
+      "height": 4500,
+      "width": 6000,
+      "items": [
+        {
+          "id": "https://www.metmuseum.org/art/collection/search/470309/canvas/1/annotation-page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://www.metmuseum.org/art/collection/search/470309/annotation/painting/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://images.metmuseum.org/CRDImages/cl/original/DP708770.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 4500,
+                "width": 6000
+              },
+              "target": "https://www.metmuseum.org/art/collection/search/470309/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
